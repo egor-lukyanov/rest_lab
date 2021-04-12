@@ -3,7 +3,6 @@ import json
 import socket
 import traceback
 from concurrent.futures import ProcessPoolExecutor
-from aiohttp_wsgi import serve
 
 from aiohttp import web
 
